@@ -1,0 +1,123 @@
+% Metódy inžinierskej práce
+
+\documentclass[10pt,twoside,slovak,a4paper]{article}
+
+\usepackage[slovak]{babel}
+\usepackage[IL2]{fontenc} 
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{url} % príkaz \url na formátovanie URL
+\usepackage{hyperref} % odkazy v texte budú aktívne (pri niektorých triedach dokumentov spôsobuje posun textu)
+
+\usepackage{cite}
+%\usepackage{times}
+
+\pagestyle{headings}
+
+\title{Google Classroom, MS Teams a ich využitie vo výučbe.\thanks{Semestrálny projekt v predmete Metódy inžinierskej práce, ak. rok 2020/21, vedenie: Meno Priezvisko}} % meno a priezvisko vyučujúceho na cvičeniach
+
+\author{Filip Cák\\[2pt]
+	{\small Slovenská technická univerzita v Bratislave}\\
+	{\small Fakulta informatiky a informačných technológií}\\
+	{\small \texttt{xcak@stuba.sk}}
+	}
+
+\date{\small 30. september 2020} % upravte
+
+
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+V mojom projekte sa plánujem zamerať na výhody a efektivitu využitia online platforiem Google Classroom a MS Teams pri výučbe a zároveň porovnať tieto dve služby. Počas pandémie boli školy nútené nájsť alternatívu prezenčného vzdelávania. Mnohé si vybrali práve jednu z týchto 2 alternatív.[1] V mojom projekte by som chcel bližšie opísať možnosti online vzdelávania cez Google Classroom alebo MS Teams[2], ktoré mohli byť zavedené aj skôr ako výpomoc pri komunikácii medzi žiakmi a učiteľmi. Zámerom je vyhodnotiť ako by to obom stranám uľahčilo komunikáciu, prehľadnosť zadaných úloh a cvičení ako aj následnú kontrolu. Poukázať aj na možný priestor zlepšenia spolupráce na tímových projektoch.
+\end{abstract}
+
+
+
+\section{Úvod}
+
+Motivujte čitateľa a vysvetlite, o čom píšete. Úvod sa väčšinou nedelí na časti.
+
+Uveďte explicitne štruktúru článku. Tu je nejaký príklad.
+Základný problém, ktorý bol naznačený v úvode, je podrobnejšie vysvetlený v časti~\ref{nejaka}.
+Dôležité súvislosti sú uvedené v častiach~\ref{dolezita} a~\ref{dolezitejsia}.
+Záverečné poznámky prináša časť~\ref{zaver}.
+
+
+
+\section{Nejaká časť} \label{nejaka}
+
+Z obr.~\ref{f:rozhod} je všetko jasné. 
+
+\begin{figure*}[tbh]
+\centering
+%\includegraphics[scale=1.0]{diagram.pdf}
+Aj text môže byť prezentovaný ako obrázok. Stane sa z neho označný plávajúci objekt. Po vytvorení diagramu zrušte znak \texttt{\%} pred príkazom \verb|\includegraphics| označte tento riadok ako komentár (tiež pomocou znaku \texttt{\%}).
+\caption{Rozhodujúci argument.}
+\label{f:rozhod}
+\end{figure*}
+
+
+
+\section{Iná časť} \label{ina}
+
+Základným problémom je teda\ldots{} Najprv sa pozrieme na nejaké vysvetlenie (časť~\ref{ina:nejake}), a potom na ešte nejaké (časť~\ref{ina:nejake}).\footnote{Niekedy môžete potrebovať aj poznámku pod čiarou.}
+
+Môže sa zdať, že problém vlastne nejestvuje\cite{Coplien:MPD}, ale bolo dokázané, že to tak nie je~\cite{Czarnecki:Staged, Czarnecki:Progress}. Napriek tomu, aj dnes na webe narazíme na všelijaké pochybné názory\cite{PLP-Framework}. Dôležité veci možno \emph{zdôrazniť kurzívou}.
+
+
+\subsection{Nejaké vysvetlenie} \label{ina:nejake}
+
+Niekedy treba uviesť zoznam:
+
+\begin{itemize}
+\item jedna vec
+\item druhá vec
+	\begin{itemize}
+	\item x
+	\item y
+	\end{itemize}
+\end{itemize}
+
+Ten istý zoznam, len číslovaný:
+
+\begin{enumerate}
+\item jedna vec
+\item druhá vec
+	\begin{enumerate}
+	\item x
+	\item y
+	\end{enumerate}
+\end{enumerate}
+
+
+\subsection{Ešte nejaké vysvetlenie} \label{ina:este}
+
+\paragraph{Veľmi dôležitá poznámka.}
+Niekedy je potrebné nadpisom označiť odsek. Text pokračuje hneď za nadpisom.
+
+
+
+\section{Dôležitá časť} \label{dolezita}
+
+
+
+
+\section{Ešte dôležitejšia časť} \label{dolezitejsia}
+
+
+
+
+\section{Záver} \label{zaver} % prípadne iný variant názvu
+
+
+
+%\acknowledgement{Ak niekomu chcete poďakovať\ldots}
+
+
+% týmto sa generuje zoznam literatúry z obsahu súboru literatura.bib podľa toho, na čo sa v článku odkazujete
+\bibliography{literatura}
+\bibliographystyle{plain} % prípadne alpha, abbrv alebo hociktorý iný
+\end{document}
