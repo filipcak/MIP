@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.7) (preloaded format=pdflatex 2020.10.8)  22 OCT 2020 00:31
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.7) (preloaded format=pdflatex 2020.10.8)  27 OCT 2020 14:23
 entering extended mode
 **./clanok.tex
 (clanok.tex
@@ -314,85 +314,85 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
 Package hyperref Warning: Composite letter `\textasciicaron+c'
 (hyperref)                not defined in PD1 encoding,
-(hyperref)                removing `\textasciicaron' on input line 50.
+(hyperref)                removing `\textasciicaron' on input line 53.
 
 
 Package hyperref Warning: Composite letter `\textasciicaron+t'
 (hyperref)                not defined in PD1 encoding,
-(hyperref)                removing `\textasciicaron' on input line 50.
+(hyperref)                removing `\textasciicaron' on input line 53.
 
 
 Package hyperref Warning: Composite letter `\textasciicaron+c'
 (hyperref)                not defined in PD1 encoding,
-(hyperref)                removing `\textasciicaron' on input line 64.
+(hyperref)                removing `\textasciicaron' on input line 67.
 
 
 Package hyperref Warning: Composite letter `\textasciicaron+t'
 (hyperref)                not defined in PD1 encoding,
-(hyperref)                removing `\textasciicaron' on input line 64.
+(hyperref)                removing `\textasciicaron' on input line 67.
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 66.
+(Font)              <7> on input line 69.
 [1
 
 {C:/Users/cakfi/AppData/Local/MiKTeX/pdftex/config/pdftex.map}]
 
-LaTeX Warning: Citation `Coplien:MPD' on page 2 undefined on input line 68.
+LaTeX Warning: Citation `Coplien:MPD' on page 2 undefined on input line 71.
 
 
-LaTeX Warning: Citation `Czarnecki:Staged' on page 2 undefined on input line 68
+LaTeX Warning: Citation `Czarnecki:Staged' on page 2 undefined on input line 71
 .
 
 
 LaTeX Warning: Citation `Czarnecki:Progress' on page 2 undefined on input line 
-68.
+71.
 
 
-LaTeX Warning: Citation `PLP-Framework' on page 2 undefined on input line 68.
-
-
-Package hyperref Warning: Composite letter `\textasciicaron+c'
-(hyperref)                not defined in PD1 encoding,
-(hyperref)                removing `\textasciicaron' on input line 103.
-
-
-Package hyperref Warning: Composite letter `\textasciicaron+t'
-(hyperref)                not defined in PD1 encoding,
-(hyperref)                removing `\textasciicaron' on input line 103.
+LaTeX Warning: Citation `PLP-Framework' on page 2 undefined on input line 71.
 
 
 Package hyperref Warning: Composite letter `\textasciicaron+c'
 (hyperref)                not defined in PD1 encoding,
-(hyperref)                removing `\textasciicaron' on input line 108.
+(hyperref)                removing `\textasciicaron' on input line 106.
 
 
 Package hyperref Warning: Composite letter `\textasciicaron+t'
 (hyperref)                not defined in PD1 encoding,
-(hyperref)                removing `\textasciicaron' on input line 108.
+(hyperref)                removing `\textasciicaron' on input line 106.
+
+
+Package hyperref Warning: Composite letter `\textasciicaron+c'
+(hyperref)                not defined in PD1 encoding,
+(hyperref)                removing `\textasciicaron' on input line 111.
+
+
+Package hyperref Warning: Composite letter `\textasciicaron+t'
+(hyperref)                not defined in PD1 encoding,
+(hyperref)                removing `\textasciicaron' on input line 111.
 
 No file clanok.bbl.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 123.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 130.
 [2]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 123.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 130.
  (clanok.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 123.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 123.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 130.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 130.
 Package rerunfilecheck Info: File `clanok.out' has not changed.
 (rerunfilecheck)             Checksum: 532BD423342EB90A23F7544BD65B5428;454.
 
 
 LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 123.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 130.
  ) 
 Here is how much of TeX's memory you used:
- 6586 strings out of 481199
- 100649 string characters out of 2905595
+ 6587 strings out of 481199
+ 100659 string characters out of 2905595
  379686 words of memory out of 3000000
  22050 multiletter control sequences out of 15000+200000
  548426 words of font info for 60 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 43i,8n,37p,783b,368s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 43i,8n,37p,783b,370s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\cakfi\AppData\Local\MiKTeX\fonts/pk/ljfour/public/csfonts/dpi600\c
 sr6.pk> <C:\Users\cakfi\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600
 \tcrm1000.pk> <C:\Users\cakfi\AppData\Local\MiKTeX\fonts/pk/ljfour/public/csfon
@@ -400,10 +400,10 @@ ts/dpi600\csbx12.pk> <C:\Users\cakfi\AppData\Local\MiKTeX\fonts/pk/ljfour/publi
 c/csfonts/dpi600\csti10.pk> <C:\Users\cakfi\AppData\Local\MiKTeX\fonts/pk/ljfou
 r/public/csfonts/dpi600\csbx10.pk> <C:\Users\cakfi\AppData\Local\MiKTeX\fonts/p
 k/ljfour/public/csfonts/dpi600\csr7.pk> <C:\Users\cakfi\AppData\Local\MiKTeX\fo
-nts/pk/ljfour/public/csfonts/dpi600\cssl10.pk> <C:\Users\cakfi\AppData\Local\Mi
-KTeX\fonts/pk/ljfour/public/csfonts/dpi600\csr8.pk> <C:\Users\cakfi\AppData\Loc
-al\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm0600.pk> <C:\Users\cakfi\AppDa
-ta\Local\MiKTeX\fonts/pk/ljfour/public/csfonts/dpi600\cstt10.pk> <C:\Users\cakf
+nts/pk/ljfour/public/csfonts/dpi600\cstt10.pk> <C:\Users\cakfi\AppData\Local\Mi
+KTeX\fonts/pk/ljfour/public/csfonts/dpi600\cssl10.pk> <C:\Users\cakfi\AppData\L
+ocal\MiKTeX\fonts/pk/ljfour/public/csfonts/dpi600\csr8.pk> <C:\Users\cakfi\AppD
+ata\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm0600.pk> <C:\Users\cakf
 i\AppData\Local\MiKTeX\fonts/pk/ljfour/public/csfonts/dpi600\csr10.pk> <C:\User
 s\cakfi\AppData\Local\MiKTeX\fonts/pk/ljfour/public/csfonts/dpi720\csbx12.pk> <
 C:\Users\cakfi\AppData\Local\MiKTeX\fonts/pk/ljfour/public/csfonts/dpi600\csbx9
@@ -413,9 +413,9 @@ dpi600\csr9.pk> <C:\Users\cakfi\AppData\Local\MiKTeX\fonts/pk/ljfour/public/csf
 onts/dpi600\csr12.pk> <C:\Users\cakfi\AppData\Local\MiKTeX\fonts/pk/ljfour/jkna
 ppen/ec/dpi600\tcrm1200.pk> <C:\Users\cakfi\AppData\Local\MiKTeX\fonts/pk/ljfou
 r/public/csfonts/dpi600\csr17.pk>
-Output written on clanok.pdf (2 pages, 125102 bytes).
+Output written on clanok.pdf (2 pages, 128916 bytes).
 PDF statistics:
- 451 PDF objects out of 1000 (max. 8388607)
- 18 named destinations out of 1000 (max. 500000)
+ 462 PDF objects out of 1000 (max. 8388607)
+ 19 named destinations out of 1000 (max. 500000)
  65 words of extra memory for PDF output out of 10000 (max. 10000000)
 
