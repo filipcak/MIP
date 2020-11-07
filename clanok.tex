@@ -1,6 +1,6 @@
 % Metódy inžinierskej práce
 
-\documentclass[10pt,twoside,slovak,a4paper]{article}
+\documentclass[10pt,slovak,a4paper]{article}
 
 \usepackage[slovak]{babel}
 \usepackage[IL2]{fontenc} 
@@ -8,6 +8,7 @@
 \usepackage{graphicx}
 \usepackage{url} % príkaz \url na formátovanie URL
 \usepackage{hyperref} % odkazy v texte budú aktívne (pri niektorých triedach dokumentov spôsobuje posun textu)
+
 
 \usepackage{cite}
 %\usepackage{times}
@@ -31,7 +32,7 @@
 \maketitle
 
 \begin{abstract}
-V mojom projekte sa plánujem zamerať na výhody a efektivitu využitia online platforiem Google Classroom a MS Teams pri výučbe a zároveň porovnať tieto dve služby. Počas pandémie boli školy nútené nájsť alternatívu prezenčného vzdelávania. Mnohé si vybrali práve jednu z týchto 2 alternatív.[1] V mojom projekte by som chcel bližšie opísať možnosti online vzdelávania cez Google Classroom alebo MS Teams[2], ktoré mohli byť zavedené aj skôr ako výpomoc pri komunikácii medzi žiakmi a učiteľmi. Zámerom je vyhodnotiť ako by to obom stranám uľahčilo komunikáciu, prehľadnosť zadaných úloh a cvičení ako aj následnú kontrolu. Poukázať aj na možný priestor zlepšenia spolupráce na tímových projektoch.
+V mojom projekte sa plánujem zamerať na výhody a efektivitu využitia online platforiem Google Classroom a MS Teams pri výučbe a zároveň porovnať tieto dve služby. Počas pandémie boli školy nútené nájsť alternatívu prezenčného vzdelávania. Mnohé si vybrali práve jednu z týchto 2 alternatív. \cite {COVID-19clanok} V mojom projekte by som chcel bližšie opísať možnosti online vzdelávania cez Google Classroom alebo MS Teams \cite {porovnanie}, ktoré mohli byť zavedené aj skôr ako výpomoc pri komunikácii medzi žiakmi a učiteľmi. Zámerom je vyhodnotiť ako by to obom stranám uľahčilo komunikáciu, prehľadnosť zadaných úloh a cvičení ako aj následnú kontrolu. Poukázať aj na možný priestor zlepšenia spolupráce na tímových projektoch.
 \end{abstract}
 
 
@@ -51,33 +52,54 @@ Pandémia spôsobená vírusom COVID-19 sa začala ešte na jar 2020 a zasiahla 
 %Dôležité súvislosti sú uvedené v častiach~\ref{dolezita} a~\ref{dolezitejsia}.
 %Záverečné poznámky prináša časť~\ref{zaver}.
 
-
-
 \section{Google Classroom} \label{Google Classroom}
 
-Google Classroom bol sprístupnený verejnosti už v roku 2014. [4] Táto e-learningová platforma najskôr využívala na lepšiu komunikáciu medzi učiteľmi a žiakmi a na vyššiu efektivitu - Google Docs na zápis poznámok, Drive na zdieľanie dokumentov a Gmail na komunikáciu. Postupne medzi tieto aplikácie pridali aj Google Sheets, Google Slides, Google Calendar, Google Jamboard a podobne. V roku 2020 integrovali aj službu Google Meet, kde umožňujú učiteľom mať ku každej triede jedinečný link na videohovor. Google Classroom je prístupný cez webové prehliadače rovnako ako aj cez aplikácie na Chrome OS, iOS a Androide. Kedže ponúka všetky tieto možnosti, stáva sa ľahko prístupným a umožnuje to hocikomu používať. [3] Učitelia majú možnosť si tam ukladať všetky svoje práce rovnako ako aj žiaci. Do triedy je možné nahrať aj video ako z pohľadu učiteľa tak aj študenta. Študent má vo svojom rozhraní intuitívne vyobrazené miesta, kam odovzdáva svoju prácu. Tú mu vie učiteľ jednoducho opraviť. V nasledujúcom odseku bližšie opíšem niektoré benefity.
+Google Classroom bol sprístupnený verejnosti už v roku 2014. \cite {release_date} Táto e-learningová platforma najskôr využívala na lepšiu komunikáciu medzi učiteľmi a žiakmi a na vyššiu efektivitu - Google Docs na zápis poznámok, Drive na zdieľanie dokumentov a Gmail na komunikáciu. Postupne medzi tieto aplikácie pridali aj Google Sheets, Google Slides, Google Calendar, Google Jamboard a podobne. V roku 2020 integrovali aj službu Google Meet, kde umožňujú učiteľom mať ku každej triede jedinečný link na videohovor. Google Classroom je prístupný cez webové prehliadače rovnako ako aj cez aplikácie na Chrome OS, iOS a Androide. Kedže ponúka všetky tieto možnosti, stáva sa ľahko prístupným a umožnuje to hocikomu používať. \cite {COVID-19clanok} Učitelia majú možnosť si tam ukladať všetky svoje práce rovnako ako aj žiaci. Do triedy je možné nahrať aj video ako z pohľadu učiteľa tak aj študenta. Študent má vo svojom rozhraní intuitívne vyobrazené miesta, kam odovzdáva svoju prácu. Tú mu vie učiteľ jednoducho opraviť. V nasledujúcom odseku bližšie opíšem niektoré benefity.
 
-\subsection{Google Classroom výhody} \label{Google Classroom: Google Classroom výhody}
+\subsection{Google Classroom model platformy} \label{Google Classroom: Google Classroom model platformy}
 
 \begin{itemize}
-	\item Admin - môže hromadne vytvoriť mailové adresy pre študentov
-	\item Automaticky zmenené názvy odovzdaných súborov podľa mien študentov
-	\item Jednoduchý prístup cez aplikáciu alebo prehliadač
-	\item Možnosť viacerých žiakov spolupracovať v jednom súbore.
+	\item Admin môže hromadne vytvoriť mailové adresy pre študentov a následne im posielať kolektívne maily podľa jednotlivých podtried. 
+	\item Odovzdavé súbory automaticky zmenia názov podľa mien študentov a sú uložené do jedného priečinku.
+	\item Jednoduchý prístup cez aplikáciu alebo prehliadač.
+	\item Viac žiakov má možnosť spolupracovať v jednom súbore.
 	\item Zadarmo -
-Google Classroom je momentálne zadarmo pre školy aj pre žiakov. Nevyžaduje sa mať založený mail v Gmaili. Ak by chcel človek využívať nástroje ako Docs, Sheets, a podobne, no zároveň nie je šudentom školy, ktorá využíva Google Classroom, je potrebné mať založený účet v Gmaili. 
+Google Classroom je momentálne zadarmo pre školy aj pre žiakov. Nevyžaduje mať založený mail v Gmaili. Ak by chcel človek využívať nástroje ako Docs, Sheets, a podobne, no zároveň nie je šudentom školy, ktorá využíva Google Classroom, je potrebné mať založený účet v Gmaili. 
+	\item Úspora času - softvérový inžinier Google Classroom poznamenal, že vytvorili triedu kde sa dá šetriť s časom. Zmienil hlavne rýchlu dostupnosť učiva pre celú triedu ako aj uľahčenie prístupu učiteľa k odovzdaným prácam a export známok do Google Sheets, čo urobí značne prehľadnejším čítať dáta. \cite {GoogleClassroomPBL}
 	\end{itemize}
 
 
 \section{MS Teams} \label{MS Teams}
 Spoločnosť Microsoft zverejnila príchod platformy MS TEAMS v roku 2016, ktorá bola postupne rozvýjaná a momentálne je súčasťou balíka Office 365. Postupne nahrádza aplikáciu Skype for Business, tá vznikla premenovaním aplikácie Lync a pridaním podpory pre videohovory so Skype užívateľmi. Koniec fungovania Skype for Business je ohlásený na 31 júla 2021. MS TEAMS prináša nové možnosti komunikácie, ale aj efektívne vytváranie a zdieľanie súborov. Táto platforma je zameraná nielen pre školy rôznych stupňov a triedy v nich, ale aj ako je v názve uvedené, pre tímy. Funkcionality sú upravené tak aby vyhovovali aj pre komunikáciu vo väčších tímoch alebo firmách. MS TEAMS je prístupný ako aplikácia na Windows, macOS, Linux, Android aj iOS, ale dá sa spustiť aj vo webovom prehliadači. Táto platforma je voľne dostupná a užíveteľsky prívetivá. \cite {MS-TEAMS}
 
-\subsection{MS TEAMS výhody} \label{MS TEAMS: MS TEAMS výhody}
+\subsection{MS TEAMS  model platformy} \label{MS TEAMS: MS TEAMS  model platformy}
 
 \begin{itemize}
+	\item Študent potrebuje mať vytvorené konto v Microsofte, do triedy sa pripojí pomocou url linku poskytnutého adminom.
 	\item Dostupnosť offline - pripojenie na internet nie je potrebné pre prístup k OneDrive, OneNote, Class Notebook. Súbory sa synchronizujú
- 	\item 
+ 	\item Ak učiteľ dovolí - študent može aj po odovzdaní upraviť svoju prácu, zmeny sú zaznamenané.
+	\item Jednoduchý prístup cez aplikáciu alebo prehliadač.
+	\item Kopmaktibilné s 3 najväčšími platformamy - PC, Android, iOS - samostaná aplikácia pre každú platfomu. 
+\cite {porovnanie}
 	\end{itemize}
+
+\section{Rozdiely } \label{Rozdiely}
+Každá škola má svoje špecifické požiadavky pre systém na výučbu. Google Classroom aj MS TEAMS sú momentálne lídry v zlepšení online alebo aj offline vyučovania. Obe platformy sú si pomerne podobné. V nasledujúcich bodoch prinášam pár hlavných rozdielov medzi nimi:
+
+
+\begin{itemize}
+	\item Limit študentov v jednej triede je 250 pre Google Classroom.  Do tímu v MS TEAMS sa može pripojiť viac ľudí, no prideľovanie úloh nie je podporované pri viac ako 200 študentoch.
+	\item Google Classroom automaticky premenuje súbor tak aby názov obsahoval meno šudenta.
+	\item Po synchronizácii súborov MS TEAMS nevyžaduje pripojenie na interner pre prácu s nimi.	
+	\item MS TEAMS platforma je dostupná pre PC, Android aj iOS vo forme aplikácie, ale dá sa spustiť aj cez webový prehliadač. Google Classroom nie je prístupný vo forme aplikácie pre PC.
+	\item Google Classrom umožnuje študentovi zrušiť odovzdanie súboru a nahrať nový .Ako aj viacnásobné upravenie súboru po vrátení od učiteľa. Zmeny sa ukladajú. Pri MS TEAMS študent može upraviť svoj odozdaný súbor až keď mu ho učiteľ vráti. Tento úkon býva označený ako - naspäť v rukách.
+	\item Vysvetlenie hodnotenia jednotlivých častí úlohy je implementované pri MS TEAMS. V Google Classroom iba s použitím externého rozšírenia.
+	\item MS TEAMS umožnuje učiteľom pozerať odovzdané súbory iba na počítači.\cite{porovnanie}
+
+	
+\end{itemize}
+
+
 
 
 %\section{Iná časť} \label{ina}
@@ -96,20 +118,7 @@ Spoločnosť Microsoft zverejnila príchod platformy MS TEAMS v roku 2016, ktor�
 
 
 \section{Referencie - bibtex} \label{referencie}
-clanok 3 \cite {COVID-19clanok}
-clanok ms teams \cite {MS-TEAMS}
-
-
-\section{Poznámky} \label{dolezitejsia}
-\paragraph
-zatial poznamky - odkazy aby som nezabudol 
-[3]COVID-19 Pandemic: Langkawi Vocational College Student
-Challenge in Using Google Classroom for Teaching and
-Learning 
-
-[4]  - debut google classroom
-https://techcrunch.com/2014/05/06/google-debuts-classroom-an-education-platform-for-teacher-student-communication/
-
+Obe platformy umožnujú študentom a učiteľom lepšie zvládať 
 
 \section{Záver} \label{zaver} % prípadne iný variant názvu
 
@@ -118,7 +127,7 @@ https://techcrunch.com/2014/05/06/google-debuts-classroom-an-education-platform-
 %\acknowledgement{Ak niekomu chcete poďakovať\ldots}
 
 
-% týmto sa generuje zoznam literatúry z obsahu súboru literatura.bib podľa toho, na čo sa v článku odkazujete
+
 \bibliography{literatura}
-\bibliographystyle{plain} % prípadne alpha, abbrv alebo hociktorý iný
+\bibliographystyle{unsrt}
 \end{document}
