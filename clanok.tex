@@ -1,17 +1,17 @@
 % Metódy inžinierskej práce
 
 \documentclass[10pt,slovak,a4paper]{article}
+%\includegraphics{}
 
 \usepackage[slovak]{babel}
 \usepackage[IL2]{fontenc} 
 \usepackage[utf8]{inputenc}
 \usepackage{graphicx}
-\usepackage{url} % príkaz \url na formátovanie URL
+\usepackage{url} 
 \usepackage{hyperref} % odkazy v texte budú aktívne (pri niektorých triedach dokumentov spôsobuje posun textu)
-
-
+\usepackage{booktabs}
+\usepackage{multirow}
 \usepackage{cite}
-%\usepackage{times}
 
 \pagestyle{headings}
 
@@ -56,7 +56,7 @@ Pandémia spôsobená vírusom COVID-19 sa začala ešte na jar 2020 a zasiahla 
 
 Google Classroom bol sprístupnený verejnosti už v roku 2014. \cite {release_date} Táto e-learningová platforma najskôr využívala na lepšiu komunikáciu medzi učiteľmi a žiakmi a na vyššiu efektivitu - Google Docs na zápis poznámok, Drive na zdieľanie dokumentov a Gmail na komunikáciu. Postupne medzi tieto aplikácie pridali aj Google Sheets, Google Slides, Google Calendar, Google Jamboard a podobne. V roku 2020 integrovali aj službu Google Meet, kde umožňujú učiteľom mať ku každej triede jedinečný link na videohovor. Google Classroom je prístupný cez webové prehliadače rovnako ako aj cez aplikácie na Chrome OS, iOS a Androide. Kedže ponúka všetky tieto možnosti, stáva sa ľahko prístupným a umožnuje to hocikomu používať. \cite {COVID-19clanok} Učitelia majú možnosť si tam ukladať všetky svoje práce rovnako ako aj žiaci. Do triedy je možné nahrať aj video ako z pohľadu učiteľa tak aj študenta. Študent má vo svojom rozhraní intuitívne vyobrazené miesta, kam odovzdáva svoju prácu. Tú mu vie učiteľ jednoducho opraviť. V nasledujúcom odseku bližšie opíšem niektoré benefity.
 
-\subsection{Google Classroom model platformy} \label{Google Classroom: Google Classroom model platformy}
+\subsection{Model Google Classroom platformy} \label{Google Classroom: Google Classroom platforma}
 
 \begin{itemize}
 	\item Admin môže hromadne vytvoriť mailové adresy pre študentov a následne im posielať kolektívne maily podľa jednotlivých podtried. 
@@ -72,7 +72,7 @@ Google Classroom je momentálne zadarmo pre školy aj pre žiakov. Nevyžaduje m
 \section{MS Teams} \label{MS Teams}
 Spoločnosť Microsoft zverejnila príchod platformy MS TEAMS v roku 2016, ktorá bola postupne rozvýjaná a momentálne je súčasťou balíka Office 365. Postupne nahrádza aplikáciu Skype for Business, tá vznikla premenovaním aplikácie Lync a pridaním podpory pre videohovory so Skype užívateľmi. Koniec fungovania Skype for Business je ohlásený na 31 júla 2021. MS TEAMS prináša nové možnosti komunikácie, ale aj efektívne vytváranie a zdieľanie súborov. Táto platforma je zameraná nielen pre školy rôznych stupňov a triedy v nich, ale aj ako je v názve uvedené, pre tímy. Funkcionality sú upravené tak aby vyhovovali aj pre komunikáciu vo väčších tímoch alebo firmách. MS TEAMS je prístupný ako aplikácia na Windows, macOS, Linux, Android aj iOS, ale dá sa spustiť aj vo webovom prehliadači. Táto platforma je voľne dostupná a užíveteľsky prívetivá. \cite {MS-TEAMS}
 
-\subsection{MS TEAMS  model platformy} \label{MS TEAMS: MS TEAMS  model platformy}
+\subsection{Model MS TEAMS platformy} \label{MS TEAMS: MS TEAMS platforma}
 
 \begin{itemize}
 	\item Študent potrebuje mať vytvorené konto v Microsofte, do triedy sa pripojí pomocou url linku poskytnutého adminom.
@@ -82,6 +82,7 @@ Spoločnosť Microsoft zverejnila príchod platformy MS TEAMS v roku 2016, ktor�
 	\item Kopmaktibilné s 3 najväčšími platformamy - PC, Android, iOS - samostaná aplikácia pre každú platfomu. 
 \cite {porovnanie}
 	\end{itemize}
+
 
 \section{Rozdiely } \label{Rozdiely}
 Každá škola má svoje špecifické požiadavky pre systém na výučbu. Google Classroom aj MS TEAMS sú momentálne lídry v zlepšení online alebo aj offline vyučovania. Obe platformy sú si pomerne podobné. V nasledujúcich bodoch prinášam pár hlavných rozdielov medzi nimi:
@@ -95,12 +96,46 @@ Každá škola má svoje špecifické požiadavky pre systém na výučbu. Googl
 	\item Google Classrom umožnuje študentovi zrušiť odovzdanie súboru a nahrať nový .Ako aj viacnásobné upravenie súboru po vrátení od učiteľa. Zmeny sa ukladajú. Pri MS TEAMS študent može upraviť svoj odozdaný súbor až keď mu ho učiteľ vráti. Tento úkon býva označený ako - naspäť v rukách.
 	\item Vysvetlenie hodnotenia jednotlivých častí úlohy je implementované pri MS TEAMS. V Google Classroom iba s použitím externého rozšírenia.
 	\item MS TEAMS umožnuje učiteľom pozerať odovzdané súbory iba na počítači.\cite{porovnanie}
-
-	
 \end{itemize}
 
+\section{Pohľad študenta} \label{pohľad studenta}
+Pri vypracovávaní môjho projektu som vytvoril dotazník. Študenti v ňom vyjadrili svoj názor na jednotlivé platformy ktoré využívajú pri vyučovaní na školách. Dotazník vyplnilo 77 študentov stredných a vysokých škôl. Vyhodnotil som údaje ktoré obsahovali údaje o platformách, ktorým je venovaný tento článok. Výsledky sú nasledovné. Google Classroom by odporučilo 89,5\% opýtaných študentov ktorí ho využívajú pri výučbe. Tabuľka \ref{tab:tabulkaGoogle}. Zároveň väčšina sa tam vie veľmi dobre zorientovať Obrázok \ref{diagramGoogle}. MS TEAMS by odporučilo 82,7\% opýtaných študentov ktorí ho využívajú pri výučbe. Tabuľka \ref{tab:tabulkaMS}. Zároveň väčšina sa tam vie dobre zorientovať, no táto platforma podľa opýtaných študentov nie je až tak prehľadná.  Obrázok \ref{diagramMS}.
 
 
+% Table generated by Excel2LaTeX from sheet 'Google Classroom'
+\begin{table}[htbp]
+  \centering
+  \caption{Študenti využívajúci Google Classroom}
+    \begin{tabular}{|l|cc|r|}
+    \toprule
+    \multicolumn{4}{|c|}{\multirow{2}[2]{*}{Odporučil by si niekomu Google Classroom ako platformu dobré online vyučovanie?}} \\
+    \multicolumn{4}{|c|}{} \\
+    \midrule
+    ÁNO   & \multicolumn{2}{c|}{17 študentov} & 89,5\% \\
+    \midrule
+    NIE   & \multicolumn{2}{c|}{2 študentov} & 10,5\% \\
+    \bottomrule
+    \end{tabular}%
+  \label{tab:tabulkaGoogle}%
+\end{table}%
+
+
+% Table generated by Excel2LaTeX from sheet 'MS TEAMS'
+\begin{table}[htbp]
+  \centering
+  \caption{Študenti využívajúci MS TEAMS}
+    \begin{tabular}{|l|cc|r|}
+    \toprule
+    \multicolumn{4}{|c|}{\multirow{2}[2]{*}{Odporučil by si niekomu MS TEAMS ako platformu dobré online vyučovanie?}} \\
+    \multicolumn{4}{|c|}{} \\
+    \midrule
+    ÁNO   & \multicolumn{2}{c|}{43 študentov} & 82,7\% \\
+    \midrule
+    NIE   & \multicolumn{2}{c|}{9 študentov} & 17,3\% \\
+    \bottomrule
+    \end{tabular}%
+  \label{tab:tabulkaMS}%
+\end{table}%
 
 %\section{Iná časť} \label{ina}
 
@@ -121,12 +156,24 @@ Každá škola má svoje špecifické požiadavky pre systém na výučbu. Googl
 Obe platformy umožnujú študentom a učiteľom lepšie zvládať 
 
 \section{Záver} \label{zaver} % prípadne iný variant názvu
+MS TEAMS spoločne s balíkom Ofiice rovnako ako aj Google Classroom s aplikáciami Docs, Sheets, Jamboard a ďalšími vedia dostatočne zabezpečiť dištančnú výužbu pre školy. Študentom tam môžu byť pridelované úlohy, následne aj ohodnotené. Obe platformy sú 
+
+\begin {figure}
+\begin {center}
+\includegraphics[scale=1]{Diagramy.pdf}
+\caption{Študenti využívajúci Google Classroom}
+\label {diagramGoogle}
+\end {center}
+\end{figure}
 
 
-
-%\acknowledgement{Ak niekomu chcete poďakovať\ldots}
-
-
+\begin {figure}
+\begin {center}
+\includegraphics[scale=1.25]{Diagram.pdf}
+\caption{Študenti využívajúci MS TEAMS}
+\label {diagramMS}
+\end {center}
+\end{figure}
 
 \bibliography{literatura}
 \bibliographystyle{unsrt}
